@@ -10,7 +10,7 @@ if os.path.isfile(requirementPath):
         install_requires = f.read().splitlines()
 
 setup(
-    name='rs-tools',
+    name='rstools',
     version='0.1',
     packages=find_packages(),
     install_requires=install_requires
